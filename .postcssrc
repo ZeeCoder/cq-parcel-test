@@ -1,0 +1,11 @@
+{
+  "modules": true,
+  "plugins": {
+    "postcss-nested": { bubble: ["container"] },
+    "postcss-media-minmax": {},
+    "@zeecoder/postcss-container-query": {},
+    "postcss-modules": {
+        "scopeBehaviour": "local"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.App {
+  color: red;
+
+  @container (width > 200px) {
+    color: green;
+  }
+}
